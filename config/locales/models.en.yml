@@ -1,0 +1,45 @@
+en:
+  activerecord:
+    attributes:
+
+      ##############################################
+      #USER 
+      ##############################################
+      user:
+        name: Name
+        email: Email
+        password: Password
+        repeat_password: Password Confirmation
+        username: Username
+        reset_password_sent_at: Reset Password Sent At
+        remember_created_at: Remember Created At
+        sign_in_count: Sign In Count
+        last_sign_in_at: Last Sign In At
+        current_sign_in_ip: Current Sign In Ip
+        created_at: Created At
+        updated_at: Updated At
+        roles_mask: Roles
+
+      ##############################################
+      #INSTITUTION 
+      ##############################################
+      institution:
+        name: Name
+        institution_owner: Institution Owner
+        created_at: Created At
+        updated_at: Updated At
+
+      ##############################################
+      #STUDENT
+      ##############################################
+      student:
+        name: Name
+        last_name: Lastname
+        email: Email
+        phone: Phone
+        status: Status
+        start_date: Start Date
+        description: Description
+        created_at: Created At
+        updated_at: Updated At
+
