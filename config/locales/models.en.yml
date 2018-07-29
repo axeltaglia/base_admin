@@ -19,27 +19,3 @@ en:
         created_at: Created At
         updated_at: Updated At
         roles_mask: Roles
-
-      ##############################################
-      #INSTITUTION 
-      ##############################################
-      institution:
-        name: Name
-        institution_owner: Institution Owner
-        created_at: Created At
-        updated_at: Updated At
-
-      ##############################################
-      #STUDENT
-      ##############################################
-      student:
-        name: Name
-        last_name: Lastname
-        email: Email
-        phone: Phone
-        status: Status
-        start_date: Start Date
-        description: Description
-        created_at: Created At
-        updated_at: Updated At
-

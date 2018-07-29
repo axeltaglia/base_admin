@@ -1,9 +1,9 @@
-# Administrador de Instituciones
+# Administrador
 ================================
 
 ## Descripción
 
-El presente sistema propone la administración de instituciones educativas como academias, escuelas e institutos. 
+El presente sistema propone la administración para comenzar cualquier proyecto. Incluye el modelo de Usuario, roles y autenticación. 
 
 
 ## Tecnologías
@@ -162,8 +162,8 @@ https://blog.2ndquadrant.com/how-to-safely-change-the-postgres-user-password-via
 Para descargar el proyecto, situarse en el directorio deseado para colocar la carpeta que contiene el proyecto. Luego:
 
 ```
-git clone https://github.com/axeltaglia/institution_admin.git institution_admin
-cd institution_admin
+git clone https://github.com/axeltaglia/base_admin.git project_name
+cd project_name
 bundle install
 cp config/database.yml.example config/database.yml
 ```

@@ -20,8 +20,6 @@
 				<p>
 					<strong><%= t('activerecord.attributes.roles.name') %>:</strong>
 					<%= "Admin" if @user.is? :admin %>
-					<%= "Institution Owner" if @user.is? :instituon_admin %>
-					<%= "Student" if @user.is? :student %>
 				</p>
 
 				<%= link_to raw('<i class="fa fa-pencil"></i>'), edit_admin_user_url(@user), class: 'btn btn-sm btn-warning' %>

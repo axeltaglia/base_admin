@@ -71,8 +71,9 @@ module Admin
       end
 
       def add_roles_profiles(roles)
+        return if roles == nil
         roles.each do |role|
-          @user.institution_owner = InstitutionOwner.find_or_create_by!(user_id: @user.id) if role == "institution_owner"
+          #create or find profile depending of the role
         end
       end
   end

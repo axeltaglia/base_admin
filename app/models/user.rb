@@ -1,10 +1,6 @@
 class User < ApplicationRecord
   ROLES = %w[admin user].freeze
 
-  has_one :institution_owner
-  has_one :student
-
-
   validates :name, presence: true
   validates :email, uniqueness: true, email: true
 

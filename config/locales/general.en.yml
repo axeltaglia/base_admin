@@ -36,11 +36,3 @@ en:
     edit: "Edit"
     cancel: "Cancel"
     submit: "Submit"
-
-  navigation:
-    main_title: Institution Administrator
-    root: Home
-    admin: Admin
-  home:
-    title: Institution Administrator
-    subtitle: Administrator system for education institutions.
